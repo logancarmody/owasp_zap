@@ -1,4 +1,4 @@
-# OwaspZap
+# OwaspZap (Logan Carmody Clone)
 
 
 A ruby client to access the HTTP API from Zap Proxy (http://code.google.com/p/zaproxy)
@@ -8,11 +8,18 @@ if you need a rpm, check it here: https://build.opensuse.org/package/show/home:v
 [![Build Status](https://travis-ci.org/vpereira/owasp_zap.png?branch=master)](https://travis-ci.org/vpereira/owasp_zap)
 [![Code Climate](https://codeclimate.com/github/vpereira/owasp_zap.png)](https://codeclimate.com/github/vpereira/owasp_zap)
 
+## Features
+
+* Added ability to scan as user
+* Updated security with API Key
+* Additional methods to communicate with ZAP 
+
+
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'owasp_zap'
+    gem 'owasp_zap', git: 'https://github.com/logancarmody/owasp_zap/'
 
 And then execute:
 
@@ -20,7 +27,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install owasp_zap
+    $ gem install owasp_zap, git: 'https://github.com/logancarmody/owasp_zap/'
 
 ## Usage
 
